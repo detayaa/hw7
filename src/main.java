@@ -32,6 +32,19 @@ public class main {
             System.out.println("Год " + year + " численность населения составляет " + allPeople);
         }
 
+        System.out.println("Задание 1.3");
+        int salary = 15000;
+        for (int r = 1; salary <= 12_000_000; r ++) {
+            salary += ((salary * 7) / 100) + salary;
+
+            System.out.println("Месяц " + r + " сумма равна " + salary);
+        }
+        System.out.println("Задание 1.2");
+        int salary = 15000;
+        for (int r = 1; salary <= 12_000_000; r ++) {
+            salary += ((salary * 7) / 100) + salary;
+
+            System.out.println("Месяц " + r + " сумма равна " + salary);
 
 
     }
