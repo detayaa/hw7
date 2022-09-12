@@ -36,16 +36,9 @@ public class main {
         int salary = 15000;
         for (int r = 1; salary <= 12_000_000; r ++) {
             salary += ((salary * 7) / 100) + salary;
-
-            System.out.println("Месяц " + r + " сумма равна " + salary);
+            if (r % 6 == 0) {
+                System.out.println("Месяц " + r + " сумма равна " + salary);
+            }
         }
-        System.out.println("Задание 1.2");
-        int salary = 15000;
-        for (int r = 1; salary <= 12_000_000; r ++) {
-            salary += ((salary * 7) / 100) + salary;
-
-            System.out.println("Месяц " + r + " сумма равна " + salary);
-
-
     }
 }
