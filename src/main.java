@@ -51,7 +51,8 @@ public class main {
             }
         }
         System.out.println("Задание 4.3");
-        int friday = 3;
+        int friday = 7;
+        System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
         while (friday < 31){
             friday += 7;
             if (friday <= 31) {
