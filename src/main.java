@@ -74,9 +74,10 @@ public class main {
                 System.out.println(future);
             }
         }
-
-
-
-
+        System.out.println("Задание 2.3");
+        int two = 2;
+        for (int e = 1; e <= 10; e ++) {
+            System.out.println(two + "*" + e + "=" + two * e);
+        }
     }
 }
